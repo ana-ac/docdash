@@ -1,4 +1,4 @@
-# Docdash Ana Arriaga Coll
+# Elegant Docdash
 [![Build Status](https://api.travis-ci.org/clenemt/docdash.png?branch=master)](https://travis-ci.org/clenemt/docdash) [![license](https://img.shields.io/npm/l/docdash.svg)](LICENSE.md)
 
 A clean, responsive documentation template theme for JSDoc 3.
@@ -12,14 +12,14 @@ See http://clenemt.github.io/docdash/ for a sample demo. :rocket:
 ## Install
 
 ```bash
-$ npm i docdash-anaac
+$ npm i docdash-elegant
 ```
 
 ## Usage
 Clone repository to your designated `jsdoc` template directory, then:
 
 ```bash
-$ jsdoc entry-file.js -t path/to/docdash-anaac
+$ jsdoc entry-file.js -t path/to/docdash-elegant
 ```
 
 ## Usage (npm)
@@ -35,7 +35,7 @@ In your `jsdoc.json` file, add a template option.
 
 ```json
 "opts": {
-  "template": "node_modules/docdash-anaac"
+  "template": "node_modules/docdash-elegant"
 }
 ```
 
@@ -56,7 +56,7 @@ See the config file for the [fixtures](fixtures/fixtures.conf.json) or the sampl
         "plugins/markdown"
     ],
     "opts": {
-        "template": "assets/template/docdash-anaac/",
+        "template": "assets/template/docdash-elegant/",
         "encoding": "utf8",
         "destination": "docs/",
         "recurse": true,
@@ -129,19 +129,8 @@ Docdash supports the following options:
 
 Place them anywhere inside your `jsdoc.json` file.
 
-## Contributors
-
-[![0](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/images/0)](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/links/0)
-[![1](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/images/1)](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/links/1)
-[![2](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/images/2)](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/links/2)
-[![3](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/images/3)](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/links/3)
-[![4](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/images/4)](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/links/4)
-[![5](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/images/5)](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/links/5)
-[![6](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/images/6)](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/links/6)
-[![7](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/images/7)](https://sourcerer.io/fame/ar2rsawseen/clenemt/docdash/links/7)
-
 ## Thanks
-Thanks to [lodash](https://lodash.com) and [minami](https://github.com/nijikokun/minami).
+Thanks to [lodash](https://lodash.com), [minami](https://github.com/nijikokun/minami) and [docdash](https://github.com/clenemt/docdash).
 
 ## License
-Licensed under the Apache License, version 2.0. (see [Apache-2.0](LICENSE.md)).
+MIT License (MIT) Copyright © 2019 Ana Arriaga Coll.
