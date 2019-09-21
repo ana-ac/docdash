@@ -13,14 +13,14 @@ See http://clenemt.github.io/docdash/ for a sample demo. :rocket:
 ## Install
 
 ```bash
-$ npm install docdash
+$ npm i docdash-anaac
 ```
 
 ## Usage
 Clone repository to your designated `jsdoc` template directory, then:
 
 ```bash
-$ jsdoc entry-file.js -t path/to/docdash
+$ jsdoc entry-file.js -t path/to/docdash-anaac
 ```
 
 ## Usage (npm)
@@ -36,7 +36,7 @@ In your `jsdoc.json` file, add a template option.
 
 ```json
 "opts": {
-  "template": "node_modules/docdash"
+  "template": "node_modules/docdash-anaac"
 }
 ```
 
@@ -57,7 +57,7 @@ See the config file for the [fixtures](fixtures/fixtures.conf.json) or the sampl
         "plugins/markdown"
     ],
     "opts": {
-        "template": "assets/template/docdash/",
+        "template": "assets/template/docdash-anaac/",
         "encoding": "utf8",
         "destination": "docs/",
         "recurse": true,
@@ -77,6 +77,7 @@ Docdash supports the following options:
 {
     "docdash": {
         "static": [false|true],         // Display the static members inside the navbar
+        "name": "",                     // Display name of project in nav (default value "home")
         "sort": [false|true],           // Sort the methods in the navbar
         "sectionOrder": [               // Order the main section in the navbar (default order shown here)
              "Classes",
