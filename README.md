@@ -5,10 +5,6 @@ A clean, responsive documentation template theme for JSDoc 3.
 
 ![docdash-screenshot](./assets/images/doc-example.png)
 
-
-## Example
-See http://clenemt.github.io/docdash/ for a sample demo. :rocket:
-
 ## Install
 
 ```bash
