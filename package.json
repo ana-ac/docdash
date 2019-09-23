@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/clenemt/docdash.git"
+    "url": "https://github.com/ana-ac/docdash-elegant.git"
   },
   "devDependencies": {
     "jsdoc": "latest",
     "browser-sync": "latest",
     "watch-run": "latest"
   },
-  "author": "Clement Moron <clement.moron@gmail.com>",
-  "license": "Apache-2.0",
+  "author": "Ana Arriaga Coll",
+  "license": "MIT",
   "keywords": [
     "jsdoc",
     "template"
